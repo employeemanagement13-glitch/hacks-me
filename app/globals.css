@@ -27,7 +27,7 @@ html{
   font-family: var(--font-poppins);
 }
 body {
-  background: var(--background);
+  background: #0A0A0A;
   color: var(--foreground);
   /* height: 100vw; */
   /* overflow: hidden; */

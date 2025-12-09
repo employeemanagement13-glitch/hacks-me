@@ -59,7 +59,7 @@ export default function BlogListClient({ initialBlogs }: { initialBlogs: BlogIte
 
   return (
     <div className="w-[80vw] max-md:w-full mx-auto mt-20">
-      <SectionHeader title="Blogs" />
+      <SectionHeader title="Blogs" className="" subtitle="" subtitleClassName="" />
 
       {/* Search bar */}
       <div className="searchparent mb-4 min-w-full">

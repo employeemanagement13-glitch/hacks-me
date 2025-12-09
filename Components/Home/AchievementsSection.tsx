@@ -28,7 +28,7 @@ const AchievementsSection: React.FC = () => {
         
         {/* Header Section */}
         
-        <SectionHeader title='Achievements' subtitle='We secure, monitor, and fortify your digital world, <br className="hidden sm:inline"/> with full transparency and intelligence in every layer.' className='mb-16' subtitleClassName='headingpara' />
+        <SectionHeader title='Achievements' subtitle='We secure, monitor, and fortify your digital world, with full transparency and intelligence in every layer.' className='mb-16' subtitleClassName='headingpara' />
 
         {/* Cards Grid: 
           - lg:grid-cols-4 for the four-column layout on desktop.

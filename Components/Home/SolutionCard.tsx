@@ -24,7 +24,7 @@ const SolutionCard: React.FC<SolutionCardProps> = ({ data }) => {
       {/* Visual / SVG Area (Mimicking the style from the image) */}
       {/* CORRECTION: Changed 'items-center' to 'items-end' to align the icon to the bottom of this flex container. */}
       {/* Increased height a bit and added more padding at the top for better visual balance */}
-      <div className="relative h-64 bottom-0 w-full flex items-end justify-center p-4 rounded-xl">
+      <div className="relative h-64 bottom-0 w-full flex items-end justify-center p-4 max-md:p-0 max-md:pt-4 rounded-xl">
         
         {/* We use a descriptive icon and styling to mimic the complex graphics */}
        <img src={`${visualIcon}`} height={500} width={600} className='w-full h-full rounded-xl' alt={`${title}`}/>

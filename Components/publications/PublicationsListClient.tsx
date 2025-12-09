@@ -4,6 +4,7 @@
 import React, { useState, useMemo } from "react";
 import BlogCard from "../SubComponents/home/BlogCard";
 import Pagination from "../SubComponents/Solutions/Pagination";
+import SectionHeader from "../SubComponents/SectionHeader";
 import LoadingCardPlaceholder from "../SubComponents/home/LoadingPlaceholder";
 import { Search } from "lucide-react";
 
@@ -54,6 +55,9 @@ export default function PublicationsListClient({ initialPublications }: Props) {
   return (
     <div className="w-[80vw] mx-auto mt-20">
       {/* Search bar */}
+
+      <SectionHeader title="Blogs" className="" subtitle="" subtitleClassName="" />
+      
       <div className="searchparent mb-4 min-w-full">
         <Search size={18} />
         <input

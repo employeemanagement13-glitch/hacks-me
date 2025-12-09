@@ -16,7 +16,7 @@ const WhyUs: React.FC<WhyUsProps> = ({ title, description, data }) => {
       <div className="max-w-[90vw] mx-auto">
 
         {/* Section Header */}
-        <SectionHeader title={title} className="pb-10" subtitle={description} />
+        <SectionHeader title={title} className="pb-10" subtitle={description} subtitleClassName='' />
 
         {/* Cards Container:
             - uses flex (row) with wrap
